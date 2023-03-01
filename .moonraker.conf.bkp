@@ -1,0 +1,23 @@
+[server]
+host = 0.0.0.0
+port = 7125
+
+[authorization]
+cors_domains = 
+	https://miniklipper.caddy.cherryink
+	http://*.local
+	http://*.lan
+trusted_clients = 
+	192.168.43.0/24
+
+[octoprint_compat]
+
+[history]
+
+[update_manager]
+
+[update_manager mainsail]
+type = web
+repo = mainsail-crew/mainsail
+path = ~/mainsail
+
